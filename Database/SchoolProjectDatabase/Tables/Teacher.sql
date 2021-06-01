@@ -1,0 +1,10 @@
+﻿CREATE TABLE [dbo].[Teacher]
+(
+	[TER_PK] UNIQUEIDENTIFIER PRIMARY KEY default NEWID(),
+	[TER_Name] [nvarchar](30) NOT NULL,
+	[TER_Phone] [varchar](20) NOT NULL
+)
+GO
+
+CREATE NONCLUSTERED INDEX [FK_NDX_TEACHER_NAME_PHONE] ON [Teacher](TER_Name ASC) INCLUDE(TER_Phone)
+GO
