@@ -2,7 +2,10 @@
 (
 	[TER_PK] UNIQUEIDENTIFIER PRIMARY KEY default NEWID(),
 	[TER_Name] [nvarchar](30) NOT NULL,
-	[TER_Phone] [varchar](20) NOT NULL
+	[TER_Phone] [varchar](20) NOT NULL, 
+    [TER_StartDate] DATE NULL, 
+    [TER_IsDeleted] BIT NOT NULL DEFAULT 0, 
+    [TER_IsActive] BIT NOT NULL DEFAULT 1
 )
 GO
 
