@@ -7,7 +7,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectVersion>4.1</ProjectVersion>
     <ProjectGuid>{42ddcf4b-6ad5-4639-a605-c69c70348900}</ProjectGuid>
-    <DSP>Microsoft.Data.Tools.Schema.Sql.Sql130DatabaseSchemaProvider</DSP>
+    <DSP>Microsoft.Data.Tools.Schema.Sql.Sql150DatabaseSchemaProvider</DSP>
     <OutputType>Database</OutputType>
     <RootPath>
     </RootPath>
@@ -65,6 +65,16 @@
     <Build Include="Tables\User.sql" />
     <Build Include="Tables\UserRole.sql" />
     <Build Include="Tables\School.sql" />
+    <Build Include="Tables\ClassLevel.sql" />
+    <Build Include="Tables\Student.sql" />
+    <Build Include="Tables\Contact.sql" />
+    <Build Include="Tables\Parent.sql" />
+    <Build Include="Tables\SchoolTerm.sql" />
+    <Build Include="Tables\SchoolAvailableClass.sql" />
+    <Build Include="Tables\SchoolEnrolment.sql" />
+    <Build Include="Tables\Transaction.sql" />
+    <Build Include="Tables\Invoice.sql" />
+    <Build Include="Tables\SchoolVariable.sql" />
   </ItemGroup>
   <ItemGroup>
     <RefactorLog Include="SchoolProjectDatabase.refactorlog" />
