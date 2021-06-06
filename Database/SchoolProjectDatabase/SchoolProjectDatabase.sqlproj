@@ -59,22 +59,22 @@
     <Folder Include="Tables" />
   </ItemGroup>
   <ItemGroup>
-    <Build Include="Tables\Teacher.sql" />
-    <Build Include="Tables\Class.sql" />
-    <Build Include="Tables\Location.sql" />
-    <Build Include="Tables\User.sql" />
-    <Build Include="Tables\UserRole.sql" />
-    <Build Include="Tables\School.sql" />
-    <Build Include="Tables\ClassLevel.sql" />
-    <Build Include="Tables\Student.sql" />
-    <Build Include="Tables\Contact.sql" />
-    <Build Include="Tables\Parent.sql" />
-    <Build Include="Tables\SchoolTerm.sql" />
-    <Build Include="Tables\SchoolAvailableClass.sql" />
-    <Build Include="Tables\SchoolEnrolment.sql" />
-    <Build Include="Tables\Transaction.sql" />
-    <Build Include="Tables\Invoice.sql" />
-    <Build Include="Tables\SchoolVariable.sql" />
+    <Build Include="Tables\Teachers.sql" />
+    <Build Include="Tables\Classes.sql" />
+    <Build Include="Tables\Locations.sql" />
+    <Build Include="Tables\Users.sql" />
+    <Build Include="Tables\UserRoles.sql" />
+    <Build Include="Tables\Schools.sql" />
+    <Build Include="Tables\ClassLevels.sql" />
+    <Build Include="Tables\Students.sql" />
+    <Build Include="Tables\Contacts.sql" />
+    <Build Include="Tables\Parents.sql" />
+    <Build Include="Tables\SchoolTerms.sql" />
+    <Build Include="Tables\SchoolOpenClasses.sql" />
+    <Build Include="Tables\SchoolEnrolments.sql" />
+    <Build Include="Tables\Transactions.sql" />
+    <Build Include="Tables\Invoices.sql" />
+    <Build Include="Tables\SchoolVariables.sql" />
   </ItemGroup>
   <ItemGroup>
     <RefactorLog Include="SchoolProjectDatabase.refactorlog" />
