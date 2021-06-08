@@ -60,7 +60,6 @@
   </ItemGroup>
   <ItemGroup>
     <Build Include="Tables\Teachers.sql" />
-    <Build Include="Tables\Classes.sql" />
     <Build Include="Tables\Locations.sql" />
     <Build Include="Tables\Users.sql" />
     <Build Include="Tables\UserRoles.sql" />
@@ -73,8 +72,10 @@
     <Build Include="Tables\SchoolOpenClasses.sql" />
     <Build Include="Tables\SchoolEnrolments.sql" />
     <Build Include="Tables\Transactions.sql" />
-    <Build Include="Tables\Invoices.sql" />
     <Build Include="Tables\SchoolVariables.sql" />
+    <Build Include="Tables\Classes.sql" />
+    <Build Include="Tables\Invoices.sql" />
+    <Build Include="Tables\Creditors.sql" />
   </ItemGroup>
   <ItemGroup>
     <RefactorLog Include="SchoolProjectDatabase.refactorlog" />
