@@ -5,7 +5,7 @@
     [Password] VARCHAR(20) NOT NULL DEFAULT '', 
     [UserRolePK] UNIQUEIDENTIFIER NOT NULL,
     [RegistrationStartDate] DATE NULL, 
-    [LicenseExpireDate] DATE NULL, 
+    [LicenseExpiryDate] DATE NULL, 
     [CreatedDate] DATE NULL,
     CONSTRAINT FK_USERS_USERROLE FOREIGN KEY ([UserRolePK]) REFERENCES [UserRoles](UserRolePK),
 )
